@@ -25,5 +25,8 @@ first: install above npm package
  8- serve -s build
   
 
-
-test:"jest --watch"
+in package.json:
+    "start": "node scripts/start.js",
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js",
+    "test:cov":"jest --coverage" or "jest --coverage --watch"
