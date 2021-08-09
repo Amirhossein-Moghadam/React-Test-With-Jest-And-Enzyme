@@ -1,5 +1,6 @@
 npm install --save-dev jest
-npm install ---save-dev enzyme jest-enzyme
+npm install --save-dev enzyme jest-enzyme
+npm install --save-dev enzyme jest-enzyme enzyme-adapter-react-16
 npm i enzyme-adapter-react-17-updated
 
 test:"jest --watch"
